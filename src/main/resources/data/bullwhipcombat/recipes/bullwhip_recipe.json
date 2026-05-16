@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " BB",
+    "SCB",
+    "LS "
+  ],
+  "key": {
+    "L": {
+      "item": "minecraft:lead"
+  },
+  "C": {
+    "item": "minecraft:slime_ball"
+  },
+  "B": {
+    "item": "minecraft:leather"
+  },
+  "S": {
+    "item": "minecraft:string"
+    }
+  },
+   "result": {
+     "item": "bullwhipcombat:bullwhip"
+  }
+}
