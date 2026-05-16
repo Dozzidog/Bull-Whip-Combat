@@ -49,7 +49,7 @@ authors="Dozzidog"
 
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-A mod that adds the bullwhip mechanics from Indiana Jones and The Great Circle.
+A mod that adds the bullwhip from the Indiana Jones movie franchises.
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.bullwhipcombat]] #optional
