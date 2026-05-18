@@ -1,6 +1,6 @@
 This mod that adds the bullwhip from the Indiana Jones movie franchises.
 
-**Peronal backstory and how I decided to come up with this mod**
+**Peronal backstory**
 
 When I watch the first Indiana Jones movie Raiders of the Lost Ark as a kid I IMMEDIENTLY fell in love with the franchise. I had both LEGO: Indiana Jones games on our family WII U before we got rid of it, watched all five Indiana Jones movies, Indiana Jones and the Emperor's Tomb on our Family Xbox One and got rid of that as well, and Indiana Jones and the Great Circle on my personal PC.
 
