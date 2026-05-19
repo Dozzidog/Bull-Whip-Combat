@@ -1,7 +1,6 @@
 package net.dozzidog.bullwhipcombat;
 
 import net.dozzidog.bullwhipcombat.item.ModItems;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
