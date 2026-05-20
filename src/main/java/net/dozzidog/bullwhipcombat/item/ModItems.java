@@ -1,6 +1,7 @@
 package net.dozzidog.bullwhipcombat.item;
 
 import net.dozzidog.bullwhipcombat.BullWhipCombat;
+import net.dozzidog.bullwhipcombat.item.custom.BullwhipItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -12,7 +13,7 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, BullWhipCombat.MOD_ID);
 
     public static final RegistryObject<Item> BULLWHIP = ITEMS.register("bullwhip",
-            () -> new Item(new Item.Properties().stacksTo(1)));
+            () -> new BullwhipItem(new Item.Properties().stacksTo(1)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

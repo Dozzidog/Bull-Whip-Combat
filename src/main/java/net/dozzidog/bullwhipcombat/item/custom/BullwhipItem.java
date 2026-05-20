@@ -26,7 +26,7 @@ public class BullwhipItem extends Item implements GeoItem {
 
     @Override
     public AnimatableInstanceCache getAnimatableInstanceCache() {
-        return null;
+        return cach;
     }
 
     @Override
