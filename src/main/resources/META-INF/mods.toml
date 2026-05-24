@@ -52,20 +52,12 @@ description='''
 A mod that adds the bullwhip from the Indiana Jones movie franchises.
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
-[[dependencies.bullwhipcombat]] #optional
-    # the modid of the dependency
-    modId="forge" #mandatory
-    # Does this dependency have to exist - if not, ordering below must be specified
-    mandatory=true #mandatory
-    # The version range of the dependency
-    versionRange="[47,)" #mandatory
-    # An ordering relationship for the dependency - BEFORE or AFTER required if the dependency is not mandatory
-    # BEFORE - This mod is loaded BEFORE the dependency
-    # AFTER - This mod is loaded AFTER the dependency
+[[dependencies.bullwhipcombat]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
     ordering="NONE"
-    # Side this dependency is applied on - BOTH, CLIENT, or SERVER
     side="BOTH"
-# Here's another dependency
 [[dependencies.bullwhipcombat]]
     modId="minecraft"
     mandatory=true
@@ -94,6 +86,24 @@ A mod that adds the bullwhip from the Indiana Jones movie franchises.
     modId = "realcamera"
     mandatory = false
     versionRange = "[0.7.4]"
+    ordering = "NONE"
+    side = "CLIENT"
+[[dependencies.bullwhipcombat]]
+    modId = "parcool"
+    mandatory = false
+    versionRange = "[3.4.3.3]"
+    ordering = "NONE"
+    side = "CLIENT"
+[[dependencies.bullwhipcombat]]
+    modId = "shouldersurfingreloaded"
+    mandatory = false
+    versionRange = "[4.22.10]"
+    ordering = "NONE"
+    side = "CLIENT"
+[[dependencies.bullwhipcombat]]
+    modId = "feathers"
+    mandatory = false
+    versionRange = "[1.1]"
     ordering = "NONE"
     side = "CLIENT"
 
